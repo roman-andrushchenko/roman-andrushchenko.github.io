@@ -3,7 +3,7 @@ $(document).ready(function() {
 new WOW ().init();
 
 $('#js-modal-show').click( function(event){ 
-// $('.modal__speaker-photo').append('<video autoplay><source src="assets/video/blondie.mp4"></video>');        
+$('.modal__speaker-photo').append('<video autoplay><source src="assets/video/blondie.mp4"></video>');        
       event.preventDefault(); // выключaем стaндaртную рoль элементa
       $('#overlay').fadeIn(400, // снaчaлa плaвнo пoкaзывaем темную пoдлoжку
 
